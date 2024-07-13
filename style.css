@@ -1,0 +1,49 @@
+body {
+  font-family: "Play", sans-serif;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: #00c431;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.text-container {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.paraph-2 {
+  font-weight: bold;
+}
+
+.title-2 {
+  color: #a02b93;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 14px;
+  margin-bottom: 50px;
+}
+
+th {
+  font-weight: bold;
+  color: red;
+}
